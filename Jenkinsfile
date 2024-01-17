@@ -17,10 +17,3 @@ pipeline {
                    sh 'scp /home/slave6/workspace/Pipeline_01/target/hello-world-war-1.0.0.war /apache-tomcat-9.0.85/webapps'
                }
            }
-               }
-            }
-                echo 'Hello World'
-            }
-        }
-    }
-}
